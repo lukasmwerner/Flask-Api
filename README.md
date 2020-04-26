@@ -18,6 +18,7 @@ api = Api(app, "Test")
 api.route("/docs")
 ```
 Sample
+
 ![](https://raw.githubusercontent.com/lwerner-lshigh/Flask-Api/master/sample.png)
 
 
