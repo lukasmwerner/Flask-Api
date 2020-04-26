@@ -11,7 +11,7 @@ with open("../README.md", "r") as fh:
 
 setup(
     name='Flask-Docs-Api',
-    version='1.0',
+    version='1.0.1',
     url='http://github.com/lwerner-lshigh/flask-api/',
     license='MIT',
     author='Lukas Werner',
@@ -19,10 +19,10 @@ setup(
     description='Easy Docs for flask',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    py_modules=['flask_docs_api'],
+    #py_modules=['flask_docs_api'],
     # if you would be using a package instead use packages instead
     # of py_modules:
-    # packages=['flask_sqlite3'],
+    packages=['flask_docs_api'],
     zip_safe=False,
     include_package_data=True,
     platforms='any',
