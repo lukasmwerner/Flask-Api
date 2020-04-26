@@ -14,7 +14,8 @@ pip install Flask-Docs-Api
 
 ```python
 from flask_api_docs.api import Api
-api = Api(app, "/docs", globals(), "Test" )
+api = Api(app, "Test")
+api.route("/docs")
 ```
 
 ### How it works
@@ -25,4 +26,6 @@ Flask-Docs-Api uses the docstrings of your existing python code and the methods 
 
 Api class 
 
-Constructor: Requires the app, a route for the docs, the return value of globals(), and an optional name for the api docs title.
+Constructor: Requires the app, and an optional name for the api docs title.
+
+route: takes a url for the api doc route

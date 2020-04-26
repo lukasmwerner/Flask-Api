@@ -1,11 +1,12 @@
 
 import flask
 from flask import Flask
-
+from flask_docs_api.api import Api
 
 app = Flask(__name__)
-from flask_api_docs.api import Api
-api = Api(app, "/docs", globals(), "Test" )
+api = Api(app, "Test")
+api.route("/docs")
+
 
 @app.route("/")
 def testApp():
