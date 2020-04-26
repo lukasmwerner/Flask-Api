@@ -1,4 +1,5 @@
 # Flask-Docs-Api
+[Flask-Docs-Api | PyPI](https://pypi.org/project/Flask-Docs-Api)
 
 A library to make doc generation painless
 
