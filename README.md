@@ -17,6 +17,9 @@ from flask_api_docs.api import Api
 api = Api(app, "Test")
 api.route("/docs")
 ```
+Sample
+![](https://raw.githubusercontent.com/lwerner-lshigh/Flask-Api/master/sample.png)
+
 
 ### How it works
 Flask-Docs-Api uses the docstrings of your existing python code and the methods defined in your routes to generate the api docs.
