@@ -3,6 +3,7 @@
 A library to make doc generation painless
 
 Installation
+
 '''bash
 pip install Flask-Docs-Api
 '''
