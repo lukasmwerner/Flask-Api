@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: Flask-Docs-Api
-Version: 1.1.1
+Version: 1.1.1.1
 Summary: Easy Docs for flask
 Home-page: http://github.com/lwerner-lshigh/flask-api/
 Author: Lukas Werner
@@ -25,6 +25,10 @@ Description: # Flask-Docs-Api
         api = Api(app, "Test")
         api.route("/docs")
         ```
+        Sample
+        
+        ![](https://raw.githubusercontent.com/lwerner-lshigh/Flask-Api/master/sample.png)
+        
         
         ### How it works
         Flask-Docs-Api uses the docstrings of your existing python code and the methods defined in your routes to generate the api docs.
